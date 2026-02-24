@@ -1,3 +1,4 @@
+package Ejercicios_basicos;
 public class CalculadoraTienda {
     public static void main(String[] args) {
         // Datos de entrada
