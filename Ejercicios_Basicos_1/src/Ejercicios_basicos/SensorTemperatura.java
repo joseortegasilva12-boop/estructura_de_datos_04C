@@ -24,7 +24,14 @@ public class SensorTemperatura {
         System.out.println("Reporte de Sensor");
         System.out.println("ID Sensor: " + nombreSensor);
         System.out.println("Lectura No: " + numeroLectura);
-        System.out.println("Temperatura: " + temperaturaCelsius + "°C");
+        if (enAlarma) {
+            System.out.println("ALERTA: Temperatura excede el límite seguro!");
+            System.out.println("Temperatura: " + temperaturaCelsius + "°C");
+        }
+        else {
+            System.out.println("Temperatura dentro de límites seguros.");
+            System.out.println("Temperatura: " + temperaturaCelsius + "°C");
+        }
         System.out.println("ESTADO DE ALARMA: " + enAlarma);
     }
 }

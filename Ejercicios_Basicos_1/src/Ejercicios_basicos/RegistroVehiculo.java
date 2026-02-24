@@ -27,6 +27,11 @@ public class RegistroVehiculo {
         System.out.println("Cilindraje: " + cilindrajeCC + " cc");
         System.out.println("Precio de mercado: $" + precioCompra);
         System.out.println("Inicial Color: " + inicialColor);
-        System.out.println("SOAT al día: " + tieneSoatVigente);
+        if (tieneSoatVigente) {
+            System.out.println("usted tiene el soat al dia " + tieneSoatVigente);
+        } else {
+            System.out.println("No tiene el soat al dia " + tieneSoatVigente);
+        }
+        
     }
 }
