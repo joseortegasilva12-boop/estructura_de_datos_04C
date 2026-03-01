@@ -5,7 +5,7 @@ package Ejercicios_basicos;
 Temperatura actual en Celsius ( double)
 Nombre del sensor ( String)
 Número de lectura ( int)
-Si la temperatura supera el límite de 80°C, debe ser una booleanllamada variable .enAlarmatrue
+Si la temperatura supera el límite de 80°C, debe ser una boolean llamada variable en Alarmatrue
 Imprime el estado del sensor con todos sus datos.
 
  */
