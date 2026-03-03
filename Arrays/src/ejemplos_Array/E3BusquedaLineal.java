@@ -1,3 +1,4 @@
+package ejemplos_Array;
 /**
  * Ejercicio 3 - Búsqueda Lineal
  * Semana 3: Arreglos y Búsqueda

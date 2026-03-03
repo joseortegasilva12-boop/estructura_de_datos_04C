@@ -1,3 +1,6 @@
+package
+    ejemplos_Array;
+
 /**
  * Ejercicio 5 - Búsqueda Binaria
  * Semana 3: Arreglos y Búsqueda

@@ -1,3 +1,4 @@
+package ejemplos_Array;
 /**
  * Ejercicio 4 - Ordenamiento Burbuja (Bubble Sort)
  * Semana 3: Arreglos y Búsqueda

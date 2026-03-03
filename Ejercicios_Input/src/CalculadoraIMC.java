@@ -1,6 +1,5 @@
 package Ejercicios_Input.src;
 import java.util.Scanner;
-import java.util.Locale;
 /*### Ejercicio 5 — Calculadora de IMC
 Pide nombre, peso en kg y altura en metros. Calcula el IMC y clasifícalo.
 
@@ -36,7 +35,7 @@ public class CalculadoraIMC {
             clasificacion = "Obesidad";
         }
         System.out.println("Nombre: " + nombre);
-        System.out.println(Locale.US + "IMC: " + imc);
+        System.out.println("IMC: " + imc);
         System.out.println("Clasificación: " + clasificacion);
     }
 }

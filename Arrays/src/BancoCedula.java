@@ -16,19 +16,19 @@ public class BancoCedula {
         int fin = cedulasClientes.length - 1;
         int posicion = -1;
 
-        // Algoritmo: Búsqueda Binaria
+        // Búsqueda Binaria
         while (inicio <= fin) {
             int medio = inicio + (fin - inicio) / 2;
 
             if (cedulasClientes[medio] == idBuscado) {
                 posicion = medio;
-                break; // Lo encontramos
+                break; 
             }
             
             if (cedulasClientes[medio] < idBuscado) {
-                inicio = medio + 1; // Buscar en la mitad derecha
+                inicio = medio + 1; // Buscar en la derecha
             } else {
-                fin = medio - 1;    // Buscar en la mitad izquierda
+                fin = medio - 1;    // Buscar en la izquierda
             }
         }
 

@@ -8,16 +8,16 @@ encontrar el mayor de todos. */
 
 public class SensorTemperatura {
     public static void main(String[] args) {
-        // Temperaturas registradas cada 10 minutos
+        
         double[] registros = {22.5, 24.8, 31.2, 29.5, 35.6, 28.1};
 
-        // Asumimos que la primera temperatura es la más alta al empezar
+    
         double temperaturaMaxima = registros[0];
 
-        // Algoritmo: Búsqueda de Máximo
+        
         for (int i = 1; i < registros.length; i++) {
             if (registros[i] > temperaturaMaxima) {
-                temperaturaMaxima = registros[i]; // Actualizamos si el valor actual es mayor
+                temperaturaMaxima = registros[i]; 
             }
         }
 

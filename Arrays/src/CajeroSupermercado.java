@@ -9,22 +9,22 @@ Algoritmo a usar: Búsqueda Lineal. Es el ideal porque los productos en la estan
 
 public class CajeroSupermercado {
     public static void main(String[] args) {
-        // Arreglo desordenado de códigos de productos
+        
         int[] estanteria = {440122, 110987, 770123, 550432, 220111};
         int codigoBuscado = 770123;
         
-        // Variable para guardar la posición (iniciamos en -1 por si no existe)
+    
         int posicionEncontrada = -1;
 
-        // Algoritmo: Búsqueda Lineal
+        
         for (int i = 0; i < estanteria.length; i++) {
             if (estanteria[i] == codigoBuscado) {
-                posicionEncontrada = i; // Guardamos el índice donde se encontró
-                break; // Salimos del bucle al encontrarlo
+                posicionEncontrada = i;
+                break; 
             }
         }
 
-        // Resultado
+        
         if (posicionEncontrada != -1) {
             System.out.println("Producto encontrado en la posición: " + posicionEncontrada);
         } else {

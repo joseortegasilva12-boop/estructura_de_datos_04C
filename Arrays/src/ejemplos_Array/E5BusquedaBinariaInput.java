@@ -1,3 +1,4 @@
+package ejemplos_Array;
 import java.util.Scanner;
 
 /**
