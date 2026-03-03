@@ -65,6 +65,6 @@ public class ControlAcceso {
                 default:
                     System.out.println("Opción no válida. Por favor, intente nuevamente.");
             }
+        }
     }
-
 }

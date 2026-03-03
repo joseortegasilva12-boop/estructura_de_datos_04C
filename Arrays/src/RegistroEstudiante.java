@@ -9,7 +9,7 @@ public class RegistroEstudiante {
     public static void main(String[] args) {
         
         double[] notasFinales = {3.5, 4.0, 2.8, 5.0, 4.5, 5.0, 3.2, 4.8, 5.0, 2.9,
-                                 3.7, 4.1, 5.0, 3.9, 4.6, 5.0, 3.3, 4.2, 5.0, 3.8};
+                                3.7, 4.1, 5.0, 3.9, 4.6, 5.0, 3.3, 4.2, 5.0, 3.8};
         
         int contadorCinco = 0;
 
