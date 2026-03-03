@@ -44,12 +44,16 @@ public class AnalisisTransacciones {
 
                 if (esVIP) {
                     System.out.println(" Cuenta VIP verificada. Transacción autorizada.");
+
+                }else
+                {
+                    System.out.println(" Alerta de fraude: Cuenta no autorizada para montos altos.");
                 }
             }
             else {
                 System.out.println("\nTransacción " + (i + 1) + " no supera $5,000");
                 System.out.println("   Cuenta: " + cuentas[i] + "  |  Monto: " + String.format("%.2f", montos[i]));
-                System.out.println(" Alerta de fraude: Cuenta no autorizada para montos altos.");
+                System.out.println(" Transacción dentro de límites normales.");
 
             }
         }
