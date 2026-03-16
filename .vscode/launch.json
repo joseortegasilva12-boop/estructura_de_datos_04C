@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Competencia_Atletismo_practica2",
+            "request": "launch",
+            "mainClass": "Competencia_Atletismo_practica2",
+            "projectName": "estructura_de_datos_04C_aae3f459"
+        },
+        {
+            "type": "java",
+            "name": "Inventario_practica_1",
+            "request": "launch",
+            "mainClass": "Inventario_practica_1",
+            "projectName": "estructura_de_datos_04C_aae3f459"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

@@ -16,28 +16,28 @@ public class AlfabetoEstudiantes {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Cuántos alumnos hay en clase:");
-        int n = scanner.nextInt();
+        int alum = scanner.nextInt();
 
-        while (n < 1) {
+        while (alum < 1) {
             System.out.print("Debe haber al menos 1 alumno: ");
-            n = scanner.nextInt();
+            alum = scanner.nextInt();
         }
 
-        String[] nombres = new String[n];
+        String[] nombres = new String[alum];
         scanner.nextLine();
 
         System.out.println("\nIngresa los nombres de los alumnos:");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < alum; i++) {
             System.out.print("  Alumno " + (i + 1) + ": ");
             nombres[i] = scanner.nextLine().trim();
         }
 
         System.out.println("\n--- Lista original ingresada ---");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < alum; i++) {
             System.out.println("  " + (i + 1) + ". " + nombres[i]);
         }
 
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i < alum; i++) {
             String clave = nombres[i];
             int j = i - 1;
 
