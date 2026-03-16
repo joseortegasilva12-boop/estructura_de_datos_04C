@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Control_Notas_practica3",
+            "request": "launch",
+            "mainClass": "Control_Notas_practica3",
+            "projectName": "estructura_de_datos_04C_aae3f459"
+        },
+        {
+            "type": "java",
             "name": "Competencia_Atletismo_practica2",
             "request": "launch",
             "mainClass": "Competencia_Atletismo_practica2",
