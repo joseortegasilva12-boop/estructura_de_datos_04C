@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Biblioteca",
+            "request": "launch",
+            "mainClass": "Biblioteca",
+            "projectName": "estructura_de_datos_04C_aae3f459"
+        },
+        {
+            "type": "java",
+            "name": "Clima",
+            "request": "launch",
+            "mainClass": "Clima",
+            "projectName": "estructura_de_datos_04C_aae3f459"
+        },
+        {
+            "type": "java",
             "name": "Control_Notas_practica3",
             "request": "launch",
             "mainClass": "Control_Notas_practica3",

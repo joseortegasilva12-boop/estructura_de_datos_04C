@@ -12,6 +12,7 @@ arreglo (ej: `[10, 25, 5, 30] -> [5, 10, 25, 30]`). Esto permite al estudiante v
 para abrir espacio al nuevo valor. */
 
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class EjercicioBiblioteca {
 
