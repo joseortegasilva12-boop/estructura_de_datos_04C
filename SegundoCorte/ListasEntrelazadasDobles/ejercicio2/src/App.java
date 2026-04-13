@@ -2,29 +2,29 @@ public class App {
 
     public static void main(String[] args) {
 
-        Navegador navegador = new Navegador();
+        Galeria galeria = new Galeria();
 
-        navegador.abrir_pestana("Google",    "https://www.google.com",    "08:00");
-        navegador.abrir_pestana("YouTube",   "https://www.youtube.com",   "08:05");
-        navegador.abrir_pestana("Wikipedia", "https://www.wikipedia.org", "08:10");
-        navegador.abrir_pestana("GitHub",    "https://www.github.com",    "08:15");
+        galeria.agregar_foto("vacaciones1.jpg", 3.5, "1920x1080");
+        galeria.agregar_foto("cumpleanos.png", 5.2, "4K");
+        galeria.agregar_foto("paisaje.jpg", 2.8, "1280x720");
+        galeria.agregar_foto("retrato.png", 4.1, "3840x2160");
 
         System.out.println();
-        navegador.mostrar_pestanas();
+        System.out.println("-- Foto actual al inicio --");
+        galeria.mostrar_foto_actual();
 
-        System.out.println("\n-- Cerrando pestana de Wikipedia (intermedia) --");
-        navegador.cerrar_pestana_actual("https://www.wikipedia.org");
-        navegador.mostrar_pestanas();
+        System.out.println("\n-- Avanzando fotos --");
+        galeria.siguiente_foto();
+        galeria.siguiente_foto();
 
-        System.out.println("\n-- Cerrando la primera pestana (cabeza) --");
-        navegador.cerrar_pestana_actual("https://www.google.com");
-        navegador.mostrar_pestanas();
+        System.out.println("\n-- Retrocediendo una foto --");
+        galeria.foto_anterior();
 
-        System.out.println("\n-- Cerrando la ultima pestana (cola) --");
-        navegador.cerrar_pestana_actual("https://www.github.com");
-        navegador.mostrar_pestanas();
+        System.out.println("\n-- Intentando retroceder desde la primera --");
+        galeria.foto_anterior();
+        galeria.foto_anterior();
 
-        System.out.println("\n-- Intentando cerrar una URL que no existe --");
-        navegador.cerrar_pestana_actual("https://www.inventada.com");
+        System.out.println("\n-- Reproduccion completa de la galeria --");
+        galeria.reproducir_galeria();
     }
 }
