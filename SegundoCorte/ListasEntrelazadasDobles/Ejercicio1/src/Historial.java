@@ -23,7 +23,7 @@ public class Historial {
   public Cambio deshacer(Cambio cambioActual) {
     if (cambioActual.anterior == null) {
       System.out.println("No hay cambios para deshacer.");
-      return cambioActual; // No se puede deshacer, retornar el mismo cambio
+      return cambioActual; // No se puede deshacer, retornar el mismo cambio      
     }
     return cambioActual.anterior; // Mover el puntero hacia atrás
   }
