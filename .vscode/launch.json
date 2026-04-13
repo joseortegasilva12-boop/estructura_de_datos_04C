@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "estructura_de_datos_04C_aae3f459"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
