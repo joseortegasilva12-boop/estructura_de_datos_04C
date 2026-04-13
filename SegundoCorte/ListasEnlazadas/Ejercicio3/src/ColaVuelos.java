@@ -2,7 +2,7 @@ public class ColaVuelos {
     Vuelos Cabeza;
     Vuelos Cola;
 
-    public Cola_Vuelos() {
+    public ColaVuelos() {
         this.Cabeza = null;
         this.Cola = null;
     }
