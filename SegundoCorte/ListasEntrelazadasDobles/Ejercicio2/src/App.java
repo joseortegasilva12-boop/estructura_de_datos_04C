@@ -6,7 +6,7 @@ public class App {
 
         Scanner scanner = new Scanner(System.in);
         Galeria galeria = new Galeria();
-
+  
         // -- Agregar fotos --
         System.out.println("=== AGREGAR FOTOS ===");
         System.out.println("Fotos por defecto ya cargadas:");
